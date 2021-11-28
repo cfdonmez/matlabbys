@@ -1,0 +1,101 @@
+>> cozum(3,[-10 0 0],[10 5 5])
+
+options = 
+
+  ga options:
+
+   Set properties:
+                  MaxGenerations: 50
+             MaxStallGenerations: 25
+                  PopulationSize: 20
+
+   Default properties:
+             ConstraintTolerance: 1.0000e-03
+                     CreationFcn: @gacreationuniform
+                    CrossoverFcn: @crossoverscattered
+               CrossoverFraction: 0.8000
+                         Display: 'final'
+                      EliteCount: '0.05*PopulationSize'
+                    FitnessLimit: -Inf
+               FitnessScalingFcn: @fitscalingrank
+               FunctionTolerance: 1.0000e-06
+                       HybridFcn: []
+         InitialPopulationMatrix: []
+          InitialPopulationRange: []
+             InitialScoresMatrix: []
+                    MaxStallTime: Inf
+                         MaxTime: Inf
+                     MutationFcn: {@mutationgaussian  [1]  [1]}
+    NonlinearConstraintAlgorithm: 'auglag'
+                       OutputFcn: []
+                         PlotFcn: []
+                  PopulationType: 'doubleVector'
+                    SelectionFcn: @selectionstochunif
+                     UseParallel: 0
+                   UseVectorized: 0
+
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+    1               40          -2.623         -0.9057        0
+    2               60          -2.623          -1.787        1
+    3               80          -4.458          -2.085        0
+    4              100          -4.458          -2.317        1
+    5              120          -6.159          -2.509        0
+    6              140          -6.159          -2.822        1
+    7              160          -6.159          -3.472        2
+    8              180          -6.159          -3.838        3
+    9              200          -6.355          -4.293        0
+   10              220          -6.555          -4.829        0
+   11              240          -6.555          -5.155        1
+   12              260          -6.555          -5.712        2
+   13              280          -6.555           -6.17        3
+   14              300          -6.555          -6.284        4
+   15              320          -6.555          -6.387        5
+   16              340          -6.555          -6.466        6
+   17              360          -6.561           -6.49        0
+   18              380          -6.591          -6.509        0
+   19              400          -6.594           -6.54        0
+   20              420           -6.66          -6.553        0
+   21              440           -6.71          -6.521        0
+   22              460          -6.801          -6.481        0
+   23              480          -7.071          -6.485        0
+   24              500          -7.549          -6.372        0
+   25              520          -7.645          -6.305        0
+   26              540          -7.767          -6.309        0
+   27              560          -7.767          -6.485        1
+   28              580          -7.767          -7.134        2
+   29              600          -7.767          -7.432        3
+   30              620          -7.876          -7.493        0
+
+                                  Best           Mean      Stall
+Generation      Func-count        f(x)           f(x)    Generations
+   31              640          -7.876          -7.699        1
+   32              660          -7.876          -7.685        2
+   33              680          -7.876          -7.727        3
+   34              700          -7.876          -7.769        4
+   35              720          -7.915          -7.822        0
+   36              740          -7.915           -7.85        1
+   37              760          -7.918          -7.869        0
+   38              780           -7.94           -7.88        0
+   39              800          -7.946          -7.896        0
+   40              820          -7.946          -7.854        1
+   41              840          -7.946           -7.85        2
+   42              860          -7.973          -7.891        0
+   43              880          -7.973          -7.879        1
+   44              900          -7.973          -7.931        2
+   45              920          -7.988          -7.934        0
+   46              940          -8.001          -7.956        0
+   47              960          -8.001          -7.934        1
+   48              980          -8.029          -7.956        0
+   49             1000          -8.043          -7.956        0
+   50             1020          -8.113          -7.935        0
+Optimization terminated: maximum number of generations exceeded.
+
+ans =
+
+v1	-9.9585         
+r2	0    
+r1	0.0271
+
+>> 
